@@ -5,6 +5,5 @@ public class Stringss {
         String a = "Hello";
         String b = new String("Hello");
         System.out.println(a == b);
-        
     }
 }
