@@ -1,4 +1,4 @@
-package assignment.session03;
+package Assignment.Session03;
 
 public class Gioi03 {
     /*

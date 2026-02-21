@@ -1,4 +1,4 @@
-package learnJava.session02;
+package LearnJava.session02;
 
 public class Main2 {
     public static void main(String[] args) {

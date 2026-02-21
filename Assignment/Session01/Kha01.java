@@ -1,4 +1,4 @@
-package assignment.session01;
+package Assignment.Session01;
 
 import java.util.Scanner;
 

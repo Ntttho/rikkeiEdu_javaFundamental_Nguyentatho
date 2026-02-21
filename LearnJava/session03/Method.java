@@ -1,4 +1,4 @@
-package learnJava.session03;
+package LearnJava.session03;
 
 public class Method {
    

@@ -1,4 +1,4 @@
-package learnJava.session06;
+package LearnJava.session06;
 
 public class Circle {
     private int radius;

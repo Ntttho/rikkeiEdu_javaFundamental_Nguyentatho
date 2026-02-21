@@ -1,4 +1,4 @@
-package learnJava.session04;
+package LearnJava.session04;
 
 public class RegularExpression {
     public static void main(String[] args) {
