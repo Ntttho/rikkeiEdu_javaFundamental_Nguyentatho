@@ -1,4 +1,3 @@
-
 public class Main {
     // có thể khai báo biến instance
     String s;
