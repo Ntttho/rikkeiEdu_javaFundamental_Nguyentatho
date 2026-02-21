@@ -1,4 +1,4 @@
-package Assignment.Session01;
+package assignment.session01;
 
 public class Gioi01 {
     public static void main(String[] args) {
