@@ -1,29 +1,40 @@
 package learnJava.session02;
 
+import java.util.Scanner;
+
 public class Main2 {
+    int a = 10;
+    static int b = 10;
+
     public static void main(String[] args) {
-        int s = 1;
-        // vong lap while
-        System.out.println("vong lap voi while");
-        while (s != 4) {
-            s++;
-            System.out.println(s);
-        }
+        boolean loop = true;
+        try (Scanner sc = new Scanner(System.in)) {
+            while (loop) {
 
-        // vong lap for
-        System.out.println("vong lap voi for");
-        for (int i = 1; i < 10; i++){
-            System.out.println(i);
-        }
+                System.out.println("1. Tinh tien phat tra sach");
+                System.out.println("2. Dang ky the muon VIP");
+                System.out.println("3. Thong ke sach da liet ke trong khi kho");
+                System.out.println("0. Exits");
+                System.out.println("\n=========== chon chuc nang: ");
+                int choise = sc.nextInt();
 
-        // vong lap for each
-        System.out.println("vong lap for each");
-        int[] numbers = new int[100];
-        for (int i = 0; i < 100; i++) {
-            numbers[i] = i + 1;
+                switch (choise) {
+                    case 1:
+                        
+                        break;
+                    case 2:
+
+                        break;
+                    case 3:
+
+                        break;
+                    case 0:
+                        loop = false;
+                        break;
+                }
+            }
         }
-        for (int n : numbers) {
-            System.out.print(n);
-        }
-    }
+    
+        System.out.println(b);
+    }    
 }
