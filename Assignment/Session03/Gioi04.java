@@ -1,4 +1,4 @@
-package assignment.session03;
+package assignment.Session03;
 
 import java.util.Random;
 
