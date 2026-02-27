@@ -15,52 +15,53 @@ public class BTTH {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        boolean flag = true;
-        String[] listid = new String[100];
-        String[] listBook = new String[100];
-        int[] listPage = new int[100];
-        
-        int size = 0;
+        try (Scanner sc = new Scanner(System.in)) {
+            boolean flag = true;
+            String[] listid = new String[100];
+            String[] listBook = new String[100];
+            int[] listPage = new int[100];
+            
+            int size = 0;
 
-        while (flag) {
-            showMenu();
-            System.out.println("Nhap lua chon cua ban: ");
-            int choice = sc.nextInt();
-            System.out.println();
+            while (flag) {
+                showMenu();
+                System.out.println("Nhap lua chon cua ban: ");
+                int choice = sc.nextInt();
+                System.out.println();
 
-            switch (choice) {
-                case 1:
-                    System.out.println("Id - Name - Page");
-                    if (size == 0) {
-                        System.out.println("Chua co cuon sach nao");
-                    }else{
-                        for(int i = 0; i<size; i++){
-                            System.out.printf("%s - %s - %d\n", listid[i], listBook[i], listPage[i]);
+                switch (choice) {
+                    case 1:
+                        System.out.println("Id - Name - Page");
+                        if (size == 0) {
+                            System.out.println("Chua co cuon sach nao");
+                        }else{
+                            for(int i = 0; i<size; i++){
+                                System.out.printf("%s - %s - %d\n", listid[i], listBook[i], listPage[i]);
+                            }
                         }
-                    }
-                    System.out.println("\n\n\n");
-                    break;
-                case 2:
-                    System.out.println("aksjdflajs");
-                    sc.nextLine();
-                    System.out.print("Id: ");
-                    listid[size] = sc.nextLine();
-                    System.out.print("Name: ");
-                    listBook[size] = sc.nextLine();
-                    System.out.print("page: ");
-                    listPage[size] = sc.nextInt();
-                    System.out.println();
-                    size++;
-                    break;
-                case 3:
-                    
-                    break;
-                case 7:
-                    flag = false;
-                    break;
-                default:
-                    break;
+                        System.out.println("\n\n\n");
+                        break;
+                    case 2:
+                        System.out.println("aksjdflajs");
+                        sc.nextLine();
+                        System.out.print("Id: ");
+                        listid[size] = sc.nextLine();
+                        System.out.print("Name: ");
+                        listBook[size] = sc.nextLine();
+                        System.out.print("page: ");
+                        listPage[size] = sc.nextInt();
+                        System.out.println();
+                        size++;
+                        break;
+                    case 3:
+                        
+                        break;
+                    case 7:
+                        flag = false;
+                        break;
+                    default:
+                        break;
+                }
             }
         }
         

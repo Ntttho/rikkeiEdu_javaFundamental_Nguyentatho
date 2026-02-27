@@ -1,11 +1,9 @@
 package learnJava.session03;
 
-import java.util.Scanner;
 
 public class DemoNhom3 {
     public static void main(String[] args) {
         // Khởi tạo trực tiếp
-        int[] numbers = { 10, 20, 30, 40, 50 };
 
         // Thêm phần tử vào cuối mảng
         int capacity = 100; // Sức chứa tối đa
