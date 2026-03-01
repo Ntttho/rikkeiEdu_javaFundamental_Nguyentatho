@@ -10,6 +10,6 @@ public class Main {
         System.out.println(System.identityHashCode(b) + " " + System.identityHashCode(a) + " " + " " + System.identityHashCode(a.toUpperCase()));
     
         System.out.println(a == d);
-        System.out.println();
+        System.out.println(c);
     }
 }
