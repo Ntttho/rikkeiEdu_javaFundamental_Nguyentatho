@@ -2,7 +2,6 @@ package assignment.session10;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class Bt06 {
     static class Product {
