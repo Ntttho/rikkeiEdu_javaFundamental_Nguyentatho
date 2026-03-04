@@ -12,6 +12,8 @@ public class StudentManager {
         if(count < MAX){
             this.students[count++] = student;
             System.out.println("Them moi sinh vien thu: " + count);
+        }else{
+            System.out.println("Danh sach lop da day");
         }
     }
 
