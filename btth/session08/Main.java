@@ -23,9 +23,12 @@ public class Main {
                         System.out.print("Nhap ten: ");
                         String name = sc.nextLine();
                         System.out.print("Nhap tuoi: ");
-                        int age = sc.nextInt();
+                        int age = sc.nextInt(); 
+                        System.out.print("Nhap email: ");
+                        sc.nextLine();
+                        String email = sc.nextLine();
 
-                        lop1.addStudent(new Student(name, age));
+                        lop1.addStudent(new Student(name, age, email));
                         break;
                     case 2:
                         System.out.println("Danh sach sinh vien");

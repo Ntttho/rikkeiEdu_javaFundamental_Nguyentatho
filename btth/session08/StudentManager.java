@@ -1,7 +1,7 @@
 package btth.session08;
 
 public class StudentManager {
-    final int MAX = 100;
+    final int MAX = 10;
     Student[] students;
     int count = 0;
     public StudentManager() {
@@ -13,7 +13,7 @@ public class StudentManager {
             this.students[count++] = student;
             System.out.println("Them moi sinh vien thu: " + count);
         }else{
-            System.out.println("Danh sach lop da day");
+            System.err.println("Danh sach lop da day");
         }
     }
 

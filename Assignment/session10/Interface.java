@@ -12,6 +12,9 @@ public class Interface {
     public interface Flyable {
         void fly();
     }
+
+
+    
     public interface RemoteControl {
         void powerOn();
         default void checkBattery() {
